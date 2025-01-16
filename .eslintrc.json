@@ -5,12 +5,7 @@
 	"rules": {
 		"semi": "on",
 		"@typescript-eslint/semi": ["warn"],
-		"@typescript-eslint/no-empty-interface": [
-			"error",
-			{
-				"allowSingleExtends": true
-			}
-		]
+		"@typescript-eslint/no-empty-interface": "off"
 	},
 	"extends": [
 		"next/core-web-vitals",
